@@ -3,9 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CareerTrack</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CareerTrack - Job Tracker</title>
+
   <link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body>
@@ -14,22 +17,31 @@
     <h1>CareerTrack Dashboard</h1>
   </header>
 
+  <!-- Dashboard -->
+
   <section class="dashboard">
-    <div class="card">
+
+    <div class="dashboard-card">
       <h3>Total Jobs</h3>
       <p id="totalCount">0</p>
     </div>
-    <div class="card">
+
+    <div class="dashboard-card">
       <h3>Interview</h3>
       <p id="interviewCount">0</p>
     </div>
-    <div class="card">
+
+    <div class="dashboard-card">
       <h3>Rejected</h3>
       <p id="rejectedCount">0</p>
     </div>
+
   </section>
 
+  <!-- Jobs Section -->
+
   <section class="jobs-section">
+
     <div class="jobs-header">
       <h2>Available Jobs</h2>
       <span id="tabCount">0 Jobs</span>
@@ -44,13 +56,15 @@
     <div id="jobsContainer" class="jobs-container"></div>
 
     <div id="emptyState" class="empty hidden">
-      <img src="https://cdn-icons-png.flaticon.com/512/4076/4076505.png" width="80">
+      <img src="https://cdn-icons-png.flaticon.com/512/7486/7486740.png" width="80">
       <h3>No Jobs Available</h3>
-      <p>No job is currently in this category.</p>
+      <p>No jobs in this category yet.</p>
     </div>
+
   </section>
 
   <script src="js/script.js"></script>
+
 </body>
 
 </html>
