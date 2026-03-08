@@ -55,6 +55,8 @@ card.className="job-card";
 
 card.innerHTML = `
 
+<img src="image/delete.png" class="delete-icon">
+
 <h3>${job.company}</h3>
 
 <p><strong>${job.position}</strong></p>
@@ -87,9 +89,21 @@ renderJobs();
 
 };
 
-card.querySelector(".rejected").onclick = () => {
+ card.querySelector(".rejected").onclick = () => {
 
-job.status = "rejected";
+ job.status = "rejected";
+
+ updateDashboard();
+
+ renderJobs();
+
+  };
+  
+  card.querySelector(".delete-icon").onclick = () => {
+
+const index = jobs.findIndex(j => j.id === job.id);
+
+jobs.splice(index,1);
 
 updateDashboard();
 
