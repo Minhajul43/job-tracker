@@ -1,20 +1,20 @@
 const jobs = [
 
-{ id:1, company:"TechNova", position:"Frontend Developer", location:"Dhaka", type:"Full-time", salary:"80,000 BDT", description:"Build responsive web interfaces using modern JavaScript.", status:"all" },
+{ id:1, company:"TechNova", position:"Frontend Developer", location:"Dhaka", type:"Full-time", salary:"80,000 BDT", status:"NOT APPLIED", description:"Build responsive web interfaces using modern JavaScript." },
 
-{ id:2, company:"CodeSphere", position:"Backend Developer", location:"Chittagong", type:"Remote", salary:"90,000 BDT", description:"Develop scalable backend APIs for web applications.", status:"all" },
+{ id:2, company:"CodeSphere", position:"Backend Developer", location:"Chittagong", type:"Remote", salary:"90,000 BDT", status:"NOT APPLIED", description:"Develop scalable backend APIs for web applications." },
 
-{ id:3, company:"SoftEdge", position:"UI/UX Designer", location:"Sylhet", type:"Contract", salary:"60,000 BDT", description:"Design intuitive and beautiful user experiences.", status:"all" },
+{ id:3, company:"SoftEdge", position:"UI/UX Designer", location:"Sylhet", type:"Contract", salary:"60,000 BDT", status:"NOT APPLIED", description:"Design intuitive and beautiful user experiences." },
 
-{ id:4, company:"CloudNet", position:"DevOps Engineer", location:"Dhaka", type:"Full-time", salary:"110,000 BDT", description:"Maintain cloud infrastructure and CI/CD pipelines.", status:"all" },
+{ id:4, company:"CloudNet", position:"DevOps Engineer", location:"Dhaka", type:"Full-time", salary:"110,000 BDT", status:"NOT APPLIED", description:"Maintain cloud infrastructure and CI/CD pipelines." },
 
-{ id:5, company:"DataWave", position:"Data Analyst", location:"Rajshahi", type:"Remote", salary:"75,000 BDT", description:"Analyze datasets to generate business insights.", status:"all" },
+{ id:5, company:"DataWave", position:"Data Analyst", location:"Rajshahi", type:"Remote", salary:"75,000 BDT", status:"NOT APPLIED", description:"Analyze datasets to generate business insights."},
 
-{ id:6, company:"AppCore", position:"Mobile Developer", location:"Khulna", type:"Full-time", salary:"85,000 BDT", description:"Develop cross-platform mobile applications.", status:"all" },
+{ id:6, company:"AppCore", position:"Mobile Developer", location:"Khulna", type:"Full-time", salary:"85,000 BDT", status:"NOT APPLIED", description:"Develop cross-platform mobile applications."},
 
-{ id:7, company:"CyberLink", position:"Security Engineer", location:"Dhaka", type:"Full-time", salary:"120,000 BDT", description:"Protect systems and networks from cyber threats.", status:"all" },
+{ id:7, company:"CyberLink", position:"Security Engineer", location:"Dhaka", type:"Full-time", salary:"120,000 BDT", status:"NOT APPLIED", description:"Protect systems and networks from cyber threats."},
 
-{ id:8, company:"WebNest", position:"Full Stack Developer", location:"Remote", type:"Full-time", salary:"100,000 BDT", description:"Work with frontend and backend technologies.", status:"all" }
+{ id:8, company:"WebNest", position:"Full Stack Developer", location:"Remote", type:"Full-time", salary:"100,000 BDT", status:"NOT APPLIED", description:"Work with frontend and backend technologies." }
 
 ];
 
